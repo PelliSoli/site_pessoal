@@ -1,3 +1,126 @@
-/* {
+/* Geral */
+
+* {
+   padding: 0;
+   margin: 0;
+   font-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+   background-color: #00f;
+}
+
+/* Header */
+
+.navbar {
+   width: 100%;
+   height: 140px;
    background-color: #04072b;
-} */
+   padding: 0 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   width: 110px;
+   margin-top: 15px;
+}
+
+.nav-links {
+   position: absolute;
+   top: 15px;
+   left: 15rem;
+   font-family: Modular;
+   height: 100px;
+   line-height: 150px;
+   display: inline-block;
+}
+
+.nav-links li{
+   display: inline-block;
+   text-transform: uppercase;
+   margin-left: 100px;
+}
+
+.nav-links a{
+   color: #fff;
+   font-family: Modular;
+   letter-spacing: 1.5px;
+   font-size: 35px;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.nav-links a:hover {
+   color: #cff; /* Cor do texto ao passar o mouse */
+   text-shadow: 
+      0 0 5px #0ff,   /* Efeito de brilho */
+      0 0 10px #0ff, 
+      0 0 15px #0ff, 
+      0 0 20px #00f;  /* Adiciona uma cor mais intensa para o efeito */
+}
+
+.btn-contato {
+   font-weight: bold;
+   margin-left: auto;
+   padding: 15px 20px;
+   background-color: #2cc76a;
+   border-radius: 15px;
+}
+
+.nav-links .btn-contato:hover {
+   background-color: #22bb5f;
+   color: #fff;
+   text-shadow: 
+      0 0 5px #2cc76a,   /* Efeito de brilho */
+      0 0 10px #2cc76a, 
+      0 0 15px #fff, 
+      0 0 20px #2cc76a;  /* Adiciona uma cor mais intensa para o efeito */
+}
+
+/* About Me */
+ 
+.sobre {
+   display: flex;
+   margin: 1.2rem;
+   padding: 3rem;
+}
+
+#cont-foto {
+   width: 485px;
+   height: auto;
+   margin: 1.2rem;
+   
+}
+
+.foto-pessoal {
+   width: 100%;
+   min-height: auto;
+   border-radius: 50px;
+   margin: 15px;
+}
+
+.apresentacao {
+   background-color: green;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.apresentacao h1{
+   background-color: red;
+   margin-bottom: 15px;
+
+}
+.apresentacao p{
+   background-color: #00f;
+
+}
