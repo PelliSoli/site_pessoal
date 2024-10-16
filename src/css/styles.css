@@ -5,11 +5,12 @@
    margin: 0;
    font-style: none;
    font-family: Arial, Helvetica, sans-serif;
+   color: #fff;
    box-sizing: border-box;
-   background-color: #00f;
 }
 
 /* Header */
+
 
 .navbar {
    width: 100%;
@@ -18,7 +19,6 @@
    padding: 0 2rem;
    display: flex;
    align-items: center;
-   justify-content: space-between;
 }
 
 nav {
@@ -33,22 +33,21 @@ nav {
 
 .nav-links {
    position: absolute;
-   top: 15px;
+   top: -1px;
    left: 15rem;
-   font-family: Modular;
    height: 100px;
    line-height: 150px;
-   display: inline-block;
 }
+
 
 .nav-links li{
    display: inline-block;
+   justify-content: flex-end;
    text-transform: uppercase;
    margin-left: 100px;
 }
 
 .nav-links a{
-   color: #fff;
    font-family: Modular;
    letter-spacing: 1.5px;
    font-size: 35px;
@@ -87,8 +86,8 @@ nav {
  
 .sobre {
    display: flex;
-   margin: 1.2rem;
    padding: 3rem;
+   background-color: #060b42;
 }
 
 #cont-foto {
@@ -101,7 +100,7 @@ nav {
 .foto-pessoal {
    width: 100%;
    min-height: auto;
-   border-radius: 50px;
+   border-radius: 90px;
    margin: 15px;
 }
 
@@ -110,17 +109,68 @@ nav {
    margin-top: 20px;
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   
 }
 
 .apresentacao h1{
-   background-color: red;
+   font-family: Modular;
+   font-weight: bold;
+   font-size: 60px;
    margin-bottom: 15px;
 
 }
 .apresentacao p{
-   background-color: #00f;
+   background-color: #0ff;
 
+}
+
+/* Formação */
+
+.formacao {
+   background-color: #060b42;
+   gap: 20px;
+   
+}
+
+.formacao-item {
+   padding: 0.8rem;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.formacao h1 {
+   text-align: center;
+   font-family: Modular;
+   font-size: 60px;
+   color: #fff;
+}
+
+.formacao h3 {
+   margin-bottom: 5px;
+}
+
+.formacao p {
+ margin-bottom: 5px;
+}
+
+
+/* Conhecimentos */
+
+.conhecimentos {
+   background-color: #060b42;
+   padding: 0.8rem;
+   text-align: center;
+}
+
+.carrosel {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.imagens {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 5px;
 }
