@@ -9,6 +9,32 @@
    box-sizing: border-box;
 }
 
+
+.btn-social {
+   display: flex; /* Alinha os botões em linha */
+   gap: 10px; /* Espaçamento entre os botões */
+}
+
+.bt-links {
+   background-color: #4CAF50; /* Cor de fundo */
+   border: 0; /* Sem borda */
+   border-radius: 50%; /* Borda arredondada */
+   width: 100px; /* Largura do botão */
+   height: 100px; /* Altura do botão */
+   cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+   display: flex; /* Para centralizar o conteúdo */
+   align-items: center; /* Alinha verticalmente */
+   justify-content: center; /* Alinha horizontalmente */
+   padding: 0; /* Remove o preenchimento */
+   margin: 0; /* Remove a margem */
+}
+
+.bt-links img {
+   width: 60%; /* Ajusta a largura da imagem */
+   height: auto; /* Mantém a proporção da imagem */
+   border-radius: 0; /* Remova o border-radius da imagem */
+}
+
 /* Header */
 
 
@@ -183,6 +209,7 @@ table {
 
 #formacao p {
  margin-bottom: 5px;
+ font-size: 15px;
 }
 
 
