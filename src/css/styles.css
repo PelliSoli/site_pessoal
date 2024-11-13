@@ -5,6 +5,7 @@
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
    color: #fff;
+   box-sizing: border-box;
 }
 
 
@@ -17,7 +18,7 @@
    background-color: #04072b;
    padding: 0 2rem;
    display: flex;
-   align-items: center;
+   align-items: right;
 }
 
 nav {
@@ -28,13 +29,13 @@ nav {
 .logo {
    width: 110px;
    margin-top: 15px;
+   padding: auto;
 }
 
 .nav-links {
    position: absolute;
    top: -1px;
    left: 15rem;
-   height: 100px;
    line-height: 150px;
 }
 
@@ -64,8 +65,8 @@ nav {
 }
 
 .btn-contato {
+   right: 15rem;
    font-weight: bold;
-   margin-left: auto;
    padding: 15px 20px;
    background-color: #2cc76a;
    border-radius: 15px;
