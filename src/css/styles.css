@@ -11,51 +11,36 @@
 
 /* Header */
 
-
 .navbar {
-   width: 100%;
-   height: 140px;
    background-color: #04072b;
-   padding: 0 2rem;
-   display: flex;
-   align-items: right;
-}
+   top: 0;
+   padding: 10px 15px;
+}  
 
-nav {
+.navbar .navbar-cont {
    display: flex;
+   justify-content:space-around;
    align-items: center;
+   
+}
+.navbar-cont .logo {
+   width: 120px;
 }
 
-.logo {
-   width: 110px;
-   margin-top: 15px;
-   padding: auto;
+.navbar-cont .nav-links li {
+   display:inline-block;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 40px;
 }
 
-.nav-links {
-   position: absolute;
-   top: -1px;
-   left: 15rem;
-   line-height: 150px;
-}
-
-
-.nav-links li{
-   display: inline-block;
-   justify-content: flex-end;
-   text-transform: uppercase;
-   margin-left: 100px;
-}
-
-.nav-links a{
-   font-family: Modular;
-   letter-spacing: 1.5px;
-   font-size: 35px;
+.navbar-cont .nav-links a{
+   font-family: Quantico;
+   font-size: 30px;
+   font-weight: 450;
    text-decoration: none;
-   transition: 0.5s;
 }
-
-.nav-links a:hover {
+.navbar-cont .nav-links a:hover{
    color: #cff; /* Cor do texto ao passar o mouse */
    text-shadow: 
       0 0 5px #0ff,   /* Efeito de brilho */
@@ -64,33 +49,40 @@ nav {
       0 0 20px #00f;  /* Adiciona uma cor mais intensa para o efeito */
 }
 
-.btn-contato {
-   right: 15rem;
-   font-weight: bold;
-   padding: 15px 20px;
+.navbar-cont .btn-contato { 
    background-color: #2cc76a;
+   align-items: center;
+   padding: 15px;
+   margin: 12px 0 12px 0;
+   border: none;
    border-radius: 15px;
 }
 
-.nav-links .btn-contato:hover {
-   background-color: #22bb5f;
+.navbar-cont .btn-contato:hover{
+   background-color: #19b658;
    color: #fff;
    text-shadow: 
-      0 0 5px #2cc76a,   /* Efeito de brilho */
-      0 0 10px #2cc76a, 
+      0 0 5px #19b658,   /* Efeito de brilho */
+      0 0 10px #19b658, 
       0 0 15px #fff, 
-      0 0 20px #2cc76a;  /* Adiciona uma cor mais intensa para o efeito */
+      0 0 20px #04cc54;  /* Adiciona uma cor mais intensa para o efeito */
+}
+
+.navbar-cont .btn-contato span {
+   font-size: 30px;
+   font-family: Quantico;
+   font-weight: 450;
 }
 
 /* About Me */
- 
+
 #sobre {
    display: flex;
    padding: 3rem;
    background-color: #060b42;
 }
 
-#cont-foto {
+.cont-foto {
    width: 2200px;
    height: auto;
    margin: 1.2rem;
@@ -118,7 +110,7 @@ nav {
 }
 
 .apresentacao h1{
-   font-family: Modular;
+   font-family: Quantico;
    font-weight: bold;
    font-size: 4rem;
    margin: 10px 0 10px 65px; /* a ordem de margens é top, right, bottom e left */
@@ -147,6 +139,16 @@ nav {
    height: 85px;
 }
 
+.btn-social button:hover{
+   background-color: #131fa1;
+   color: #fff;
+   text-shadow: 
+      0 0 5px #161f83,   /* Efeito de brilho */
+      0 0 10px #161f83, 
+      0 0 15px #d5d5d5, 
+      0 0 20px #161f83;  /* Adiciona uma cor mais intensa para o efeito */
+}
+
 .icone-botao {
    font-size: 50px; /* Tamanho do ícone */
    color: #fff;   
@@ -155,6 +157,7 @@ nav {
    left: 50%; /* Centraliza horizontalmente */
    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
 }
+
 
 
 /* Formação */
@@ -189,7 +192,7 @@ table {
    border-radius: 90px;
 }
 
-.formacao-item {   
+#formacao-item {   
    padding: 10px; /* Espaçamento interno nas células */
 }
 
@@ -249,35 +252,35 @@ table {
 
 /* Formulário */
 
-#contato{
+.contato{
    text-align: center;
    padding: 5rem 0 2rem 0;
    background-color: #060b42;
 
 }
 
-#contato h2 {
+.contato h2 {
    font-family: Modular;
    font-size: 60px;
    margin-bottom: 35px;
 }
 
-#contato p {
+.contato p {
    margin-top: 15px;
    font-size: 20px;
    margin-bottom: 12px;
 }
 
-#contact-container {
+.contact-container {
    display: flex;
    justify-content: center;
 }
 
-#contact-container p {
+.contact-container p {
   padding: 28px;
 }
 
-#contact-container i {
+.contact-container i {
    font-size: 27px;
    background-color: #22bb5f;
    padding: 7px;
@@ -286,15 +289,15 @@ table {
 
 /* Rodapé */
 
-#footer {
+.footer {
    text-align: center;
    font-weight: bold;
 }
 
-#footer h2{
+.footer h2{
   font-size: 14px;
 }
 
-#footer p {
+.footer p {
  font-size: 12px;
 }

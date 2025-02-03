@@ -6,8 +6,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Vitor Pellisoli</title>
    <link rel="stylesheet" href="src/css/styles.css">
-   <link href="https://db.onlinewebfonts.com/c/7ca85da10ee214ca78810dc917c9bf52?family=Modular" rel="stylesheet"
-      type="text/css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
    <a href="https://api.whatsapp.com/send?phone=5551991598864&text=Ol%C3%A1,%20encontrei%20seu%20site%20e%20tenho%20uma%20proposta%20para%20voc%C3%AA"
@@ -20,21 +21,23 @@
 <body>
    <header>
       <nav class="navbar">
-         <div id="navbar-cont">
+         <div class="navbar-cont">
             <img src="src/img/logo.png" alt="logo" class="logo">
             <ul class="nav-links">
                <li><a href="#sobre">Sobre</a></li>
                <li><a href="#formacao">Formação</a></li>
                <li><a href="#conhecimentos">Conhecimentos</a></li>
-               <!--<li><a href="#">Portfólio</a></li> -->
-               <li><a href="#contato" class="btn-contato">Contato</a></li>
+               <!-- <li><a href="#">Portfólio</a></li> -->
             </ul>
+            <button class="btn-contato" href="#contato">
+               <span>Contato</span>
+            </button>
          </div>
       </nav>
    </header>
    <main>
       <section id="sobre">
-         <div id="cont-foto">
+         <div class="cont-foto">
             <img src="src/img/fotos_perfil/img1.jpg" class="foto-pessoal" alt="foto_perfil">
          </div>
          <div class="apresentacao">
@@ -150,13 +153,14 @@
       <section id="contato">
          <h2>Envie sua proposta</h2>
          <p>Esses são os meus dados de contato:</p>
-         <div id="contact-container">
+         <div class="contact-container">
             <p><i class="bi bi-envelope-at"></i> vitorpellisoli@gmail.com</p>
             <p><i class="bi bi-telephone"></i> (51) 9 9159-8864</p>
          </div>
       </section>
    </main>
-   <footer id="footer" style="background-color: #060b42;"> <!-- Isso aqui foi feito pq por algum motivo que eu não identifiquei, ele não estava pegando o bg color dentrro no css, então tive q utilizar de um inline -->
+   <footer class="footer" style="background-color: #060b42;">
+      <!-- Isso aqui foi feito pq por algum motivo que eu não identifiquei, ele não estava pegando o bg color dentro no css, então tive q utilizar de um inline -->
       <h2>Essa página foi feita com o intuito de demonstrar meus conhecimentos</h2>
       <p>2024 &copy; Vitor Pellisoli</p>
    </footer>
