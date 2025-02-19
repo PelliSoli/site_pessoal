@@ -7,6 +7,9 @@
    color: #fff;
 }
 
+body {
+   background-color:#060b42;
+}
 
 /* Header */
 
@@ -24,7 +27,7 @@
 }
 
 .navbar-cont .logo {
-   width: 120px;
+   width: 15vh;
 }
 
 .navbar-cont .nav-links li {
@@ -36,7 +39,7 @@
 
 .navbar-cont .nav-links a {
    font-family: Quantico;
-   font-size: 30px;
+   font-size: 1.7rem;
    font-weight: 450;
    text-decoration: none;
 }
@@ -72,42 +75,42 @@
       0 0 10px #19b658,
       0 0 15px #fff,
       0 0 20px #04cc54;
-   /* Adiciona uma cor mais intensa para o efeito */
+   /* Adiciona uma cor mais intensa para o efeito */   
 }
 
 .navbar-cont .btn-contato span {
-   font-size: 30px;
+   font-size: 1.7rem;
    font-family: Quantico;
    font-weight: 450;
 }
 
+
 /* About Me */
 
-#sobre {
-   display: flex;
+.sobre-cont {
+   display:flex;
+   justify-content: space-evenly;
    padding: 3rem;
-   background-color: #060b42;
+   
 }
 
 .cont-foto {
-   width: 2200px;
+   width: 200vh;
    height: auto;
    margin: 1.2rem;
 
 }
 
 .foto-pessoal {
-   width: 100%;
-   min-height: auto;
+   
    border-radius: 70px;
    margin: 15px;
 }
 
 .apresentacao {
    background-color: #01021648;
-   border-radius: 90px;
-   margin-top: 30px;
-   margin-left: 20px;
+   border-radius: 70px;
+   margin: auto;
    display: flex;
    flex-direction: column;
 }
@@ -119,7 +122,7 @@
 .apresentacao h1 {
    font-family: Quantico;
    font-weight: bold;
-   font-size: 50px;
+   font-size: 3.5rem;
    margin: 10px 0 10px 65px;
    /* a ordem de margens é top, right, bottom e left */
 }
@@ -181,7 +184,6 @@
 /* Formação */
 
 #formacao {
-   background-color: #060b42;
    gap: 20px;
 }
 
@@ -222,7 +224,7 @@ table {
 #formacao h1 {
    text-align: center;
    font-family: Quantico;
-   font-size: 50px;
+   font-size: 3.5rem;
    color: #fff;
    margin-bottom: 30px;
 }
@@ -241,7 +243,6 @@ table {
 /* Conhecimentos */
 
 #conhecimentos {
-   background-color: #060b42;
    padding: 0.8rem;
    text-align: center;
 }
@@ -249,7 +250,7 @@ table {
 #conhecimentos h1 {
    margin: 15px;
    font-family: Quantico;
-   font-size: 50px;
+   font-size: 3.5rem;
 }
 
 #conhecimentos h3 {
@@ -279,13 +280,12 @@ table {
 #contato {
    text-align: center;
    padding: 5rem 0 2rem 0;
-   background-color: #060b42;
 
 }
 
 #contato h2 {
    font-family: Quantico;
-   font-size: 40px;
+   font-size: 3rem;
    margin-bottom: 35px;
 }
 

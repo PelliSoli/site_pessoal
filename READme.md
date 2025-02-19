@@ -21,8 +21,12 @@ As tecnologias utilizadas para desenvolvimento foram HTML e CSS
 - Vitor Pellisoli da Silva [Código e documentação]
 
 ---
- ## 🔧 Bugs a conhecidos serem corrigidos posteriormente 
+## 🔧 Bugs já corrigidos
+
+ - O background color quando aplicado no "*" acabava "vazando" para dentro de alguns elementos
+
+ ## 🔧 Bugs já conhecidos serem corrigidos posteriormente 
 
    - Uma melhor responsividade para as telas
    - Navbar segue meio bugada, melhorar os espaçamentos e torna-la mais uniforme
-   - O background color quando aplicado no "*" acaba "vazando" para dentro de alguns elementos
+   
